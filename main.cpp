@@ -5,7 +5,6 @@ int main()
 {
     std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     std::cout << "Enter two whole numbers: ";
-
     int x,y;
 
     std::cin >> x >> y;
@@ -16,6 +15,7 @@ int main()
     std::cout << "Remainder: " << x << " % " << y << " = "  << x % y << std::endl;
     std::cout << "Square Root: " << "sqrt(" << x << ") = " << sqrt(x) << std::endl;
     std::cout << "Square: " << x << " ^ " << y << " = " << pow(x, y) << std::endl;
+
 
     return 0;
 }
